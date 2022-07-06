@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.cover-photo {
+  width: 100%;
+  height: 900px;
+  padding-bottom: 100px;
+  opacity: 0.9;
+}
+.cover-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.cover-text h1 {
+  color: white;
+  font-size: 80px;
+}
+.cover-text p {
+  color: white;
+  font-size: 40px;
+}
+.button {
+  text-decoration: none;
+  border: 1px;
+  padding: 10px 40px;
+  border-radius: 10px;
+  background-color: tomato;
+  color: white;
+}
+.container {
+  height: 400px;
+  padding-bottom: 130px;
+}
+.donate-today h1 {
+  font-size: 55px;
+}
+.donate-today {
+  text-align: center;
+  margin: 2% 26%;
+}
+
+.flexible {
+  display: flex;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.amount {
+  color: gray;
+  text-align: center;
+  width: 15%;
+  padding: 15px;
+  margin-left: 1%;
+  margin-right: 1%;
+  background-color: rgb(236, 229, 229);
+  border-radius: 10px;
+}
+#border {
+  color: red;
+  border-style: solid;
+  border-color: rgba(255, 0, 0, 0.508);
+  border-width: 1px;
+  background-color: rgb(238, 199, 199);
+}
+.donate-plan {
+  display: flex;
+  height: 350px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.donate-plan div {
+  width: 30%;
+  padding: 50px 20px;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 5px;
+}
+#food-family {
+  background-color: rgba(167, 216, 247, 0.493);
+}
+#shelter-family {
+  background-color: rgba(245, 176, 176, 0.555);
+}
+#education-child {
+  background-color: rgba(247, 247, 186, 0.658);
+}
+.shop-gift {
+  display: flex;
+  height: 350px;
+  margin-top: 150px;
+  padding: 20px;
+}
+.half-width {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.half-width img {
+  width: 80%;
+}
+.half-width h1 {
+  font-size: 30px;
+}
+.email {
+  display: inline-block;
+  text-decoration: none;
+  border: 1px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  background-color: rgba(204, 200, 200, 0.555);
+  color: gray;
+}
+
+#email-padding {
+  padding: 50px;
+  background-color: rgba(247, 247, 186, 0.658);
+}
+.subscribe {
+  text-decoration: none;
+  border: 1px;
+  padding: 10px 40px;
+  border-radius: 5px;
+  background-color: tomato;
+  color: white;
+  margin-left: 0;
+}
+.get-update {
+  margin-top: 10%;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+footer h1 {
+  color: tomato;
+  font-family: "Pattaya", sans-serif;
+}
